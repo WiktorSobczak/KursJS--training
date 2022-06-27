@@ -18,7 +18,7 @@ console.log(tagsArray);//wyświetli się: 'meat', 'ham', 'salami', 'pork', 'beef
 //lesson25 arrows
 //var myArray = [];
 
-var myArray = [];//zmiena myarrayt
+var myArray = [];//zmienna myArray
 myArray[0] = 25 
 myArray[1] = 35
 myArray[2] = true
@@ -31,8 +31,8 @@ console.log(myArray);//wyświetli się:[25, 35, false, 'hello']
 var myArray2 = [10,20,"hi",false]
 console.log(myArray2);//wyświetli się:[10, 20, 'hi', false]
 
-var myArray3 = new Array();
-var myArray4 = new Array(5);
+var myArray3 = new Array();//ładniejsza wersja var myArray3 = []
+var myArray4 = new Array(5);//dlekaracja tablicy pięcioelementowej czyli dokładnie 5 elementów
 
 console.log(myArray4);
 console.log(myArray3);
